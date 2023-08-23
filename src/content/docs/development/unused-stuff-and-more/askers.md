@@ -9,10 +9,10 @@ In a very early version of askers version 1.0.0, instead of using buttons to cha
 
 The embed color was also changed from green to yellow in the final beta build as well.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Early version of settings command.</p></figcaption></figure>
+![Early design of settings command](https://2314760047-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fnkk2ozf6e5sx71U10aKl%2Fuploads%2Fu9PLmgFEu32RzRqpnR0J%2Fimage.png?alt=media&token=42dffbab-ef2c-4fd4-bbdd-cd725bfc98b3)
 
 ## 1.0.1
 
 Askers version 1.0.1 is a cancelled build of Askers for aoi.js v5. It was the version where it's supposed to have the languages feature but due to v5 being breaking by discord api changes, 1.0.1 was cancelled and it was replaced by 1.0.2 to provide support for aoi.js v6 (alongside with the language feature).
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>1.0.1 shown on stats command.</p></figcaption></figure>
+![1.0.1 shown on stats command.](https://2314760047-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fnkk2ozf6e5sx71U10aKl%2Fuploads%2FKwS63R4IDfajKaEvjME2%2Fimage.png?alt=media&token=2ba7b005-74d6-491c-b080-1c9b85876c1d)
