@@ -8,6 +8,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'dodoGames stuff',
+			customCss: [
+				// Use a custom theme
+				'./src/themes/theme1.css',
+			],
 			social: {
 				github: 'https://github.com/DodoGames7/astro-site',
 				discord: 'https://discord.gg/pFwKjAaZvj',
