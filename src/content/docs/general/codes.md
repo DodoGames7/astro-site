@@ -29,5 +29,7 @@ Codes i created using aoi.js wikis system.
 * [Author button](https://aoi.js.org/wikis/posts/632607624742961153/mnfe6): How to setup author buttons in aoi.js
 * [Mention button](https://aoi.js.org/wikis/posts/632607624742961153/z8o18h): How to mention users using interactions in aoi.js
 * [Long serverinfo command](https://aoi.js.org/wikis/posts/632607624742961153/iiwq2): Simple yet, a long serverinfo command just for you
+* [Yes or no command](https://aoi.js.org/wikis/posts/632607624742961153/0s8eh9): A very dumb command i made just for fun
+* [HowGamer command](https://aoi.js.org/wikis/posts/632607624742961153/ic9vu7): A command to check on how much gamer you're!
 
 
