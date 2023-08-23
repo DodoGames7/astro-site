@@ -31,6 +31,7 @@ export default defineConfig({
 				{
 					label: 'Development',
 					autogenerate: { directory: 'development' },
+					collapsed: false
 				},
 			],
 		}),
