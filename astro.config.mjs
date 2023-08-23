@@ -11,7 +11,8 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/DodoGames7/astro-site',
 				discord: 'https://discord.gg/pFwKjAaZvj',
-				twitter: 'https://twitter.com/dodoGames14'
+				twitter: 'https://twitter.com/dodoGames14',
+				threads: 'https://www.threads.net/@dodogames14'
 			},
 			sidebar: [
 				{
