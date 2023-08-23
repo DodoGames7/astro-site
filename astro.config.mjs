@@ -12,6 +12,7 @@ export default defineConfig({
 				// Use a custom theme
 				'./src/themes/theme1.css',
 			],
+			lastUpdated: true,
 			social: {
 				github: 'https://github.com/DodoGames7/astro-site',
 				discord: 'https://discord.gg/pFwKjAaZvj',
