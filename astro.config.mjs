@@ -9,7 +9,9 @@ export default defineConfig({
 		starlight({
 			title: 'dodoGames stuff',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/DodoGames7/astro-site',
+				discord: 'https://discord.gg/pFwKjAaZvj',
+				twitter: 'https://twitter.com/dodoGames14'
 			},
 			sidebar: [
 				{
