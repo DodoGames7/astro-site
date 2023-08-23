@@ -21,3 +21,13 @@ If pastebin is blocked in your country, then you can visit the alternative links
 * [Github gist version](https://gist.github.com/DodoGames7/0626d6a00139489a88a1aac4fa7f5c8e)
 * [Source bin version](https://sourceb.in/8qdQJeI4Kn)
 * [Star bin version](https://starb.in/wHong1.swift)   &#x20;
+
+# aoi.js wikis
+Codes i created using aoi.js wikis system.
+
+### Current wikis
+* [Author button](https://aoi.js.org/wikis/posts/632607624742961153/mnfe6): How to setup author buttons in aoi.js
+* [Mention button](https://aoi.js.org/wikis/posts/632607624742961153/z8o18h): How to mention users using interactions in aoi.js
+* [Long serverinfo command](https://aoi.js.org/wikis/posts/632607624742961153/iiwq2): Simple yet, a long serverinfo command just for you
+
+
