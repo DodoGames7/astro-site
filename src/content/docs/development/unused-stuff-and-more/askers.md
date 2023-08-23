@@ -3,7 +3,7 @@ title: Askers
 description: Development dedicated to Askers
 ---
 
-## Early version of settings command
+## Early design of settings command
 
 In a very early version of askers version 1.0.0, instead of using buttons to change current settings, you were instead required to go into certain category to manage them. The idea was scrapped with the final beta build of 1.0.0.
 
