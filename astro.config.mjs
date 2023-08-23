@@ -13,10 +13,12 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Stuff',
+					label: 'General',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Projects', link: '/general/projects/' },
+						{ label: 'Codes', link: '/general/projects/' },
+						{ label: 'Other', link: '/general/other/' }
 					],
 				},
 				{
