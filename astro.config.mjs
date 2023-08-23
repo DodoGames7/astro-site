@@ -10,7 +10,7 @@ export default defineConfig({
 			title: 'dodoGames stuff',
 			customCss: [
 				// Use a custom theme
-				'./src/themes/theme1.css',
+				'./src/themes/theme2.css',
 			],
 			lastUpdated: true,
 			social: {
