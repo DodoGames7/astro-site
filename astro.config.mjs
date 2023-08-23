@@ -21,6 +21,12 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: "Home",
+					items: [
+						{ label: 'Introduction', link: '/home/greeting'}
+					],
+				},
+				{
 					label: 'General',
 					items: [
 						// Each item here is one entry in the navigation menu.
@@ -28,11 +34,12 @@ export default defineConfig({
 						{ label: 'Codes', link: '/general/codes/' },
 						{ label: 'Other', link: '/general/other/' }
 					],
+					collapsed: true
 				},
 				{
 					label: 'Development',
 					autogenerate: { directory: 'development' },
-					collapsed: false
+					collapsed: true
 				},
 			],
 		}),
