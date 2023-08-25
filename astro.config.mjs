@@ -23,7 +23,7 @@ export default defineConfig({
 				{
 					label: "Home",
 					items: [
-						{ label: 'Introduction', link: '/home/greeting'}
+						{ label: 'Introduction', link: '/home/introduction'}
 					],
 				},
 				{
