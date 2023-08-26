@@ -12,6 +12,7 @@ description: List of projects published on github including non-discord ones
 
 * [**Aoi.js docs by dodoGames**](https://dodogames.gitbook.io/aoi.js-docs-by-dodogames/)**:** A attempt to make aoi developer's life a lot easier with useful guides
 * [**Dodoplugins.js**](https://github.com/dodoGames-s-Studios/dodoplugins.js)**:** An package dedicated to aoi.js v6 which loads few custom supposedly special functions
+* [**dodogames-api**](https://github.com/DodoGames7/dodogames-api): An simple open source api made for fun using easy-api.ts
 
 ## Not projects but alright
 
