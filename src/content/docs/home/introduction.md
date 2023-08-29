@@ -1,9 +1,5 @@
 ---
 title: Welcome
-banner:
-  content: |
-    For updates on what was added in this site
-    <a href="https://github.com/DodoGames7/astro-site/releases">Check out our changelogs.</a>
 ---
 
 :::note
