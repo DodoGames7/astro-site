@@ -1,7 +1,7 @@
 {
   "name": "dodogamesstuff",
   "type": "module",
-  "version": "0.0.1",
+  "version": "2.0.2",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.7.3",
+    "@astrojs/starlight": "^0.8.0",
     "astro": "^2.10.5",
     "sharp": "^0.32.3"
   }
