@@ -1,6 +1,10 @@
 ---
 title: Notice
 description: Some stuff included like last versions of each bot.
+sidebar:
+  badge:
+    text: Important
+    variant: note
 ---
 
 ## Dodo-Bot
