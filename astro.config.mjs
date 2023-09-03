@@ -16,6 +16,7 @@ export default defineConfig({
 				},
 				ar: {
 					label: 'العربية',
+					lang: 'ar',
 					dir: 'rtl'
 				}
 			},
