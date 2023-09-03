@@ -8,6 +8,17 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'dodoGames stuff',
+			defaultLocale: 'en',
+			locales: {
+				// English docs in `src/content/docs/en/`
+				en: {
+					label: 'English',
+				},
+				ar: {
+					label: 'العربية',
+					dir: 'rtl'
+				}
+			},
 			customCss: [
 				// Use a custom theme
 				'./src/themes/theme2.css',
