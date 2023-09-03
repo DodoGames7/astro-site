@@ -35,23 +35,26 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Home",
+					translations: { ar: 'الصفحة الرئيسية' },
 					items: [
-						{ label: 'Introduction', link: '/home/introduction'}
+						{ label: 'Introduction', link: '/home/introduction', translations: { ar: 'مقدمة' }}
 					],
 				},
 				{
 					label: 'General',
+					translations: { ar: 'عام' },
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Projects', link: '/general/projects/' },
-						{ label: 'Codes', link: '/general/codes/' },
-						{ label: 'Other', link: '/general/other/' }
+						{ label: 'Projects', link: '/general/projects/', translations: { ar: 'مشاريع' } },
+						{ label: 'Codes', link: '/general/codes/', translations: { ar: 'الاكواد' } },
+						{ label: 'Other', link: '/general/other/', translations: { ar: 'غيره' } }
 					],
 					collapsed: true
 				},
 				{
 					label: 'Development',
 					autogenerate: { directory: 'development' },
+					translations: { ar: 'التطوير' },
 					collapsed: true
 				},
 			],
