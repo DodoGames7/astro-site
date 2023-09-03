@@ -8,11 +8,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'dodoGames stuff',
-			defaultLocale: 'en',
+			defaultLocale: 'root',
 			locales: {
 				// English docs in `src/content/docs/en/`
-				en: {
+				root: {
 					label: 'English',
+					lang: 'en', // lang is required for root locales
 				},
 				ar: {
 					label: 'العربية',
