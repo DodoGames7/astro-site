@@ -1,6 +1,6 @@
 ---
 title: Other
-description: Other things that i have created. Mostly not bot related but other stuff.
+description: شياء أخرى قمت بإنشائها في الغالب لا يتعلق الأمر بالبوتات ولكن بأشياء أخرى
 ---
 
-* [Archive](https://github.com/dodoGames-s-Studios/archive): The OFFICIAL archive of all versions of bot projects stored in each own dedicated folder! You need to go into the folders to actually browse them though.
+* [Archive](https://github.com/dodoGames-s-Studios/archive): ارشيف رسمي لكل نسخ المشورعات الخاصة بي

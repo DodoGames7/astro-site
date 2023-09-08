@@ -1,9 +1,9 @@
 ---
 title: Notice
-description: Some stuff included like last versions of each bot.
+description: تم تضمين بعض الأشياء مثل الإصدارات الأخيرة من كل بوت.
 sidebar:
   badge:
-    text: Important
+    text: مهم
     variant: note
 ---
 

@@ -5,7 +5,7 @@ description: اكواد ل aoi.js ل اي احد يتعلمها
 
 ## Coinflip command (aoi.js v6)
 
-### Requirements
+### متطلبات ل الكود
 
 * aoi.js v6 installed
 * aoi.parser installed (latest version recommended) for ephemeral messages in the code
