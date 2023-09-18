@@ -1,5 +1,5 @@
 ---
-title: Codes
+title: الاكواد
 description: اكواد ل aoi.js ل اي احد يتعلمها
 ---
 

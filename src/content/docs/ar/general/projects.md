@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: مشاريع
 description: List of projects published on github including non-discord ones
 ---
 
