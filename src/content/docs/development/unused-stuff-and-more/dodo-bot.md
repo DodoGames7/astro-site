@@ -11,7 +11,7 @@ In versions between 1.0.1 and 1.3.9, the command `version` was mostly using text
 
 ## Music system
 
-Originally in 1.5.9 of Dodo-Bot, there was going to be a music system which was unfinished and had a few commands like `play`. However, due to most of the hosts not allowing music alongside with discord banning music bots, this ended up being removed entirely in a later build of 1.5.9.
+Originally in version 1.5.9 of Dodo-Bot, there was going to be a music system which was unfinished and had a few commands like `play`. However, due to most of the hosts not allowing music alongside with discord banning music bots, this ended up being removed entirely in a later build of 1.5.9.
 
 ## Slash Rewrite
 

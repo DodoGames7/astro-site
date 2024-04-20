@@ -46,6 +46,16 @@ export default defineConfig({
 					collapsed: true
 				},
 				{
+					label: 'Guides',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Slash commands', link: '/guides/slash-commands/'},
+						{ label: 'Slash command choices', link: '/guides/slash-commands-choices/'},
+						{ label: 'Author interactions', link: '/guides/author-interactions/'}
+					],					
+					collapsed: true
+				},
+				{
 					label: 'Development',
 					autogenerate: { directory: 'development' },					
 					collapsed: true
