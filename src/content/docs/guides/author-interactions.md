@@ -3,7 +3,7 @@ title: Author interactions
 description: A guide on how to create author-only interactions!
 ---
 
-This post is dedicated to creating interactions that are only usable by a user. If you're here for that then go ahead reading this guide:
+This page is dedicated to creating interactions that are only usable by a user. If you're here for that then go ahead reading this guide:
 
 # What are author interactions
 Author interactions are interactions that only the user who ran the command will be able to use it. It helps preventing interruptions by other people and overall ensures that each user will use their own dedicated interaction rather than messing with the other's interactions! This guide will include both of author buttons and select menus.

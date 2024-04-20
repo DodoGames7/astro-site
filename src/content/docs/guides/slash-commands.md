@@ -247,24 +247,19 @@ Be sure to remove the command after that.
 
 ### What list of slash option types can i use?
 Here's a list consisting of types you can use
-```
-SUB_COMMAND -> 1 // Sub command type       
-SUB_COMMAND_GROUP -> 2 // Same as sub command type but with groups instead
-STRING -> 3 // Text type  
-INTEGER -> 4 // Integer type. Any Number between -2^53 and 2^53                                                            
-BOOLEAN -> 5 // Boolean type. Usually presents a "true" and "false" as options to choose from  
-USER -> 6 // User type. Includes all users + bots to select from                                                                                        
-CHANNEL -> 7 // Includes all channel types + categories                                                      
-ROLE ->  8 // Role type. Includes all roles to select from              
-MENTIONABLE -> 9 // Same as User type but Includes users and roles all in one                                                                     
-NUMBER -> 10 // Number type. Any double between -2^53 and 2^53                                                            
-ATTACHMENT -> 11 // Attachment type. Let's user upload an attachment to a option
-
-/* Some stuff to note
-Attachment object can be found here: https://discord.com/developers/docs/resources/channel#attachment-object
-While Mentionable option is similar to User type, it mentions the selected user/role instead of returning their ids
-*/
-```
+| Types    | Description |
+| -------- | ------- |
+| SUB_COMMAND (1)  | Sub command type |
+| SUB_COMMAND_GROUP (2) | Same as sub command type but with groups instead |
+| STRING (3)   | Text Type |
+| INTEGER (4)  | Integer type. Any Number between -2^53 and 2^53 |
+| BOOLEAN (5)  | Boolean Type. Presents a "true" and "false" as options to choose from |
+| USER (6)  | User type. Includes all users + bots to select from |
+| CHANNEL (7)  | Includes all channel types + categories  |
+| ROLE (8) | Role type. Includes all roles to select from |
+| MENTIONABLE (9) | Same as User type but Includes users and roles all in one |
+| NUMBER (10)  | Number type. Any double between -2^53 and 2^53 |
+| ATTACHMENT (11) | [Attachment](https://discord.com/developers/docs/resources/channel#attachment-object) type. Let's user upload an attachment to a option |
 # Need help?
 Be sure to ask for help in our [support](https://discord.com/invite/HMUfMXDQsV) or ask for help here directly!
 
