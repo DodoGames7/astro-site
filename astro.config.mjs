@@ -50,7 +50,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Slash commands', link: '/guides/slash-commands/'},
-						{ label: 'Slash command choices', link: '/guides/slash-commands-choices/'},
+						{ label: 'Slash command choices', link: '/guides/slash-command-choices/'},
 						{ label: 'Author interactions', link: '/guides/author-interactions/'}
 					],					
 					collapsed: true
