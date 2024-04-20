@@ -1,7 +1,7 @@
 {
   "name": "dodogamesstuff",
   "type": "module",
-  "version": "2.0.8-beta.2",
+  "version": "2.0.8-beta.3",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

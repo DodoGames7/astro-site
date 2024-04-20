@@ -14,11 +14,6 @@ export default defineConfig({
 				root: {
 					label: 'English',
 					lang: 'en', // lang is required for root locales
-				},
-				ar: {
-					label: 'العربية',
-					lang: 'ar',
-					dir: 'rtl'
 				}
 			},
 			customCss: [
@@ -35,26 +30,24 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Home",
-					translations: { ar: 'الصفحة الرئيسية' },
+					
 					items: [
-						{ label: 'Introduction', link: '/home/introduction', translations: { ar: 'مقدمة' }}
+						{ label: 'Introduction', link: '/home/introduction'}
 					],
 				},
 				{
 					label: 'General',
-					translations: { ar: 'عام' },
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Projects', link: '/general/projects/', translations: { ar: 'مشاريع' } },
-						{ label: 'Codes', link: '/general/codes/', translations: { ar: 'الاكواد' } },
-						{ label: 'Other', link: '/general/other/', translations: { ar: 'غيره' } }
+						{ label: 'Projects', link: '/general/projects/'},
+						{ label: 'Codes', link: '/general/codes/'},
+						{ label: 'Other', link: '/general/other/'}
 					],
 					collapsed: true
 				},
 				{
 					label: 'Development',
-					autogenerate: { directory: 'development' },
-					translations: { ar: 'التطوير' },
+					autogenerate: { directory: 'development' },					
 					collapsed: true
 				},
 			],
