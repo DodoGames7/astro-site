@@ -3,20 +3,20 @@ title: Slash commands
 description: Introduction to getting started on slash commands!
 ---
 
-# Introduction
+### Introduction
 This guide is dedicated to my take on slash command's tutorials. It aims to be simplified and mention the common mistakes when setting up slash commands. It is recommended that you read the entire guide otherwise you may end up making mistakes inevitably.
 
-# What are slash commands
+### What are slash commands
 Slash commands are supposedly "new generation" of bots by Discord's vision. The idea is that all bots do rely on one prefix that is `/` and so people do not have to guess prefixes of any bot they encounter whether it would be in a server or a random bot they have just added it to an server they're in. Slash commands has been around since April 2021 and has since been enforced into verified bots due to message content intent updates by DIscord!
 
-# Notes
+### Notes
 * This guide requires you to have put `onInteractionCreate` onto your events code otherwise the example code for replying to the slash command will not work AT ALL
 * You can create up to 100 slash commands both in public and private
 * The function `$createApplicationCommand` must be only executed for once, otherwise, you're spamming the discord api which can cause problems
 * Highly recommend reading the usage from docs to get an idea
 * The command code examples here are for command handler setups, so please do not put them directly into your `index.js` or whatever your main file is. You can modify the commands to match with the index.js ones
 
-# Creating the slash command
+### Creating the slash command
 Slash commands can be created using `$createApplicationCommand`, it is a function that creates an slash command based on what you like such as options, name, description, etc.
 
  It is not a way to create a code to respond to a slash and SHOULD NOT be put under a aoi.js interaction command of a non existing slash command for example. Similar to running any regular functions, `$createApplicationCommand` can be run on anything but i recommend using eval command or at least a prefix command with it.
@@ -48,7 +48,7 @@ I have created a private slash command called \`ping\` for this one specific ser
 }
 ```
 
-# Deleting the slash command
+### Deleting the slash command
 To delete a slash command, you can use `$deleteApplicationCommand` function.
 ```js
 $deleteApplicationCommand[visibility;id of the slash command]
@@ -68,7 +68,7 @@ $deleteApplicationCommand[global;$getApplicationCommandID[ping;global]]
 
 Lastly, if it didn't error the first time but second time it did, then it means that you have successfully deleted the slash command. Restart your Discord if it still appears for you in this case.
 
-# Responding to slash commands
+### Responding to slash commands
 We may use `$interactionReply` to respond to the slash command with the same name we used from `$createApplicationCommand` which is `ping` as it's the slash command name we have chose!
 
 Let's create an aoi.js interaction command for slash:
@@ -83,7 +83,7 @@ code: `$interactionReply[Hi.]
 ```
 Restart your commands using `$updateCommands` and the slash command should now respond with `Hi.`!
 
-# Creating options
+### Creating options
 `$createApplicationCommand` function has one extra parameter dedicated to options, it is usually a JSON format that goes like this:
 ```js
 $createApplicationCommand[global;exampleslash;Simple example slash command.;true;true;slash;[{
@@ -135,8 +135,8 @@ Your option2 input is $slashOption[exampleoption2]
 }
 ```
 
-# Optional options
-## Note
+## Optional options
+### Note
 When creating multiple options for each slash command, the very first option must be required otherwise it will error out.
 
 You can also make slash command options not required, this can be done by setting `"required":` option to use `false`
@@ -151,7 +151,7 @@ $createApplicationCommand[global;exampleslash;Simple example slash command.;true
 
 When there's no input or if the option hasn't being touched yet, `$slashOption` will return nothing as expected!
 
-# DM Support
+## DM Support
 
 ### Note
 This feature is only available for public slash commands under the `global` type from createApplicationCommand. You may need to set the parameter `allowDm` to `false` in case of creating a private slash command for an server (though, it won't do anything if it was set to `true`).

@@ -3,17 +3,12 @@ title: Projects
 description: List of projects published on github including non-discord ones
 ---
 
-## Projects
-
 ### Discord projects
 
 * [**Askers**](https://github.com/DodoGames7/Askers): A discord akinator bot made in aoi.js with options to customize the game
-* [**Dodo-Bot**](https://github.com/DodoGames7/Dodo-Bot/tree/v2): An bot that tries to entertain people as much as Possible
+* [**Dodo-Bot**](https://github.com/DodoGames7/Dodo-Bot/tree/v2): A personal bot project made in aoi.js v6 aiming to both entertain and provide users some features to use.
 
 ### Other
-
-* [**Dodo aoi.js Stuff**](https://dodogames-s-studios.github.io/aoi.js-docs-by-dodo-v2/)**:** A attempt to make aoi developer's life a lot easier with useful guides
-
 * [**dodogames-api**](https://github.com/DodoGames7/dodogames-api): An simple open source api made for fun using easy-api.ts
 
 ### Not projects but alright
