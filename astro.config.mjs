@@ -40,7 +40,6 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Projects', link: '/general/projects/'},
-						{ label: 'Codes', link: '/general/codes/'},
 						{ label: 'Other', link: '/general/other/'}
 					],
 					collapsed: true
