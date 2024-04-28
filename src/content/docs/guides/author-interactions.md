@@ -29,7 +29,7 @@ module.exports = [{
     $title[Author Button]
     $description[Press the Button!]
     $color[Random]
-    $addButton[1;Example;primary;customID_$authorID;false]`
+    $addButton[1;Example;primary;Examplebutton_$authorID;false]`
     }, {
       type: "interaction",
       prototype: "button",
@@ -38,7 +38,7 @@ module.exports = [{
     
     $onlyIf[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];You're not the author of this command! {ephemeral}
     {interaction}]
-    $onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==customID;]`
+    $onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==Examplebutton;]`
     }]
 ```
 
@@ -53,7 +53,7 @@ module.exports = [{
 $title[Author menu example]
      $description[Select an option.]
 $color[Random]
-     $addSelectMenu[1;string;yourCustomID_$authorID;This is a placeholder!;1;1;false;A Option:Description of option B:anotherCustomID:false;B Option:Description of option B:andAnotherCustomID:true]
+     $addSelectMenu[1;string;ExampleMenu_$authorID;This is a placeholder!;1;1;false;A Option:Description of option B:Examplemenuvalue1:false;B Option:Description of option B:andAnotherCustomID:true]
   `,
   },
   {
@@ -65,16 +65,16 @@ $color[Random]
 $onlyIf[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];You're not the author of this command! {ephemeral}
     {interaction}]
 
-    $onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==yourCustomID;]
+    $onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==ExampleMenu;]
 
-     $onlyIf[$interactionData[values[0]]==anotherCustomID;]`,
+     $onlyIf[$interactionData[values[0]]==Examplemenuvalue1;]`,
   }]
 ```
 
 # How do they work?
 We start by adding both of buttons and select menus using their dedicated functions.
 
-We then make sure that they have ` _$authorID` within the custom id like `customID_$authorID` for buttons example but then we start to create an author interaction using `$interactionData[customId]` which allows us to return the custom id name of the button/select menu we have just created below.
+We then make sure that they have ` _$authorID` within the custom id like `Examplebutton_$authorID` for buttons example but then we start to create an author interaction using `$interactionData[customId]` which allows us to return the custom id name of the button/select menu we have just created below.
 
 As a result, we remove the property `name:` from both interaction's commands and we start separating the custom id and the author id using `$advancedTextSplit` as we have `_` in our custom id which makes it easy to do that!
 
