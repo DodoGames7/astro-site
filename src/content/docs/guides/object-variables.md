@@ -3,7 +3,6 @@ title: Object variables
 description: A guide on how to use objects inside of variables
 ---
 In this guide, you will learn on how to use object variables!
-
 # What is object variables?
 object variables are basically a json inside of a variable regardless of it's type whether it meant for a guild, message, global, etc.
 
@@ -66,7 +65,7 @@ $createObject[data;$getVar[variable]]
 
 This will work as long as the properties you specified actually exists in your variable!
 
-## Changing and saving data
+### Changing and saving data
 Now with retrieving the data being out of the way, you will be wondering:
 
 "How do i set data in my object variable?"
