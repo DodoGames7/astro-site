@@ -3,7 +3,7 @@ title: Slash commands
 description: Introduction to getting started on slash commands!
 ---
 
-### Introduction
+## Introduction
 This guide is dedicated to my take on slash command's tutorials. It aims to be simplified and mention the common mistakes when setting up slash commands. It is recommended that you read the entire guide otherwise you may end up making mistakes inevitably.
 
 ### What are slash commands
@@ -83,7 +83,7 @@ code: `$interactionReply[Hi.]
 ```
 Restart your commands using `$updateCommands` and the slash command should now respond with `Hi.`!
 
-### Creating options
+## Creating options
 `$createApplicationCommand` function has one extra parameter dedicated to options, it is usually a JSON format that goes like this:
 ```js
 $createApplicationCommand[global;exampleslash;Simple example slash command.;true;true;slash;[{
@@ -136,6 +136,7 @@ Your option2 input is $slashOption[exampleoption2]
 ```
 
 ## Optional options
+
 ### Note
 When creating multiple options for each slash command, the very first option must be required otherwise it will error out.
 
@@ -172,7 +173,7 @@ That's how you configure DM support for a specific global slash command!
 
 That's it for basic level of slash commands understanding! There's more to the slash commands feature and if you would like to know on any other guides about slash commands then please, let me know through the comments here!
 
-# Frequently asked questions
+## Frequently asked questions
 
 ### I have created a slash command but Discord does not show it for me
 Discord often has cache problems so it may not display the newly created slash command as a result. Restarting your Discord should fix the problem.

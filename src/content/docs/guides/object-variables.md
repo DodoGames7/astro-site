@@ -2,7 +2,6 @@
 title: Object variables
 description: A guide on how to use objects inside of variables
 ---
-
 In this guide, you will learn on how to use object variables!
 
 # What is object variables?
@@ -42,7 +41,7 @@ variable: {}
 
 This can be useful if you want each object variable to have it's own unique data rather than including default properties.
 
-## Getting data
+### Getting data
 Now as you use a get variable function, you get the current data of it depending on how you made that object variable.
 
 This can become an issue however, when you only want to get a specific property from that variable.
