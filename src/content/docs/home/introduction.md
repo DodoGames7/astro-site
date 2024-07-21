@@ -2,15 +2,18 @@
 title: Welcome
 ---
 
+In this site, you will see guides exclusive to aoi.js such as Slash commands guide for example!
+
+If you're a aoi.js beginner or you're just a person who want to learn something, you will find them useful with how much information they have! You can use guide as links to some aoi.js guides if you want!
+
 :::note
-I'm currently trying to improve this documentation. This means that i will change stuff on how this documentation is shown from time to time whenever i have time to do so!
+It should be noted that this site has no relation to aoi.js team and therefore should be treated as a documentation made by a user.
+
+It is recommended to view aoi.js docs instead in cases where you want information about functions or so!
 :::
 
-# What is this
-This is a website dedicated to my development and codes i have created in aoi.js! This is currently a re-worked website from the Gitbook version to give myself more freedom on what i can do in docs.
+# What do you need to know
+Because the guides can be advanced, it is highly recommended that you have enough aoi.js knowledge to understand them. Although, the guides attempt to simplify the process of understanding them, not everyone can understand hence why it's recommended that you know about aoi.js before you proceed viewing the guides.
 
-# Why did you changed the site?
-Gitbook wasn't great since their v2 release (which is what the site previously used for) and so for this reason alone, a lot of people were looking for alternatives. Usually, most people can think of is basically coding everything on their own as a way to allow themselves to do whatever they want. However, not everyone can do this for themselves for whatever reasons and so site builders like Docusaurus, Astro were a solution for building a documentation without having to code stuff for weeks.
 
-As you can tell, this website is currently using the web framework Astro [(with Starlight template)](https://github.com/withastro/starlight) to run so i'm currently trying to figure out on what to improve. The Gitbook version of this website will be discontinued in the future as i'm no longer using it to build docs now. I recommend you to stick with this version of the site in the meantime. Feel free to check current pages of this website on your own!
 
