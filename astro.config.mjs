@@ -22,7 +22,7 @@ export default defineConfig({
 			],
 			lastUpdated: true,
 			social: {
-				github: 'https://github.com/DodoGames7/astro-site',
+				github: 'https://github.com/DodoGames7',
 				discord: 'https://discord.gg/pFwKjAaZvj',
 				twitter: 'https://twitter.com/dodoGames14',
 				threads: 'https://www.threads.net/@dodogames14'
@@ -36,27 +36,14 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'General',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Projects', link: '/general/projects/'},
-						{ label: 'Other', link: '/general/other/'}
-					],
-					collapsed: true
-				},
-				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Slash commands', link: '/guides/slash-commands/'},
 						{ label: 'Slash command choices', link: '/guides/slash-command-choices/'},
-						{ label: 'Author interactions', link: '/guides/author-interactions/'}
+						{ label: 'Author interactions', link: '/guides/author-interactions/'},
+						{ label: 'Object variables', link: '/guides/object-variables'}
 					],					
-					collapsed: true
-				},
-				{
-					label: 'Development',
-					autogenerate: { directory: 'development' },					
 					collapsed: true
 				},
 			],
