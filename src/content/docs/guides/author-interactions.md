@@ -3,22 +3,22 @@ title: Author interactions
 description: A guide on how to create author-only interactions!
 ---
 
-This page is dedicated to creating interactions that are only usable by a user. If you're here for that then go ahead reading this guide:
+This page is dedicated to creating interactions that are only usable by a user. If you're here for that then go ahead reading this guide.
 
-# What are author interactions
+## What are author interactions
 Author interactions are interactions that only the user who ran the command will be able to use it. It helps preventing interruptions by other people and overall ensures that each user will use their own dedicated interaction rather than messing with the other's interactions! This guide will include both of author buttons and select menus.
 
-# Requirements
-* Ensure that you're on aoi.js 6.6.0 or later. This guide won't work on much earlier versions without some modifications
+### Requirements
+* Ensure that you're on aoi.js 6.8.0 or later. This guide won't work on much earlier versions without some modifications
 * Have a command handler ready. The examples here rely on it but however you can modify the codes to work with non command handler method
 * IT IS HIGHLY RECOMMENDED to have `onInteractionCreate` event added otherwise none of the examples below will ever work
 
 
-# Notes
-* Ephemeral errors will only work on v6.7 and above. You may need to use aoi.parser and modify the options to get the ephemeral to work in older versions
-* The used custom ids in this guide can modified if it wasn't obvious
+:::note
+The used custom ids in this guide can modified if it wasn't obvious
+:::
 
-# Author button Example
+## Author button Example
 ```js
 module.exports = [{
     name: "authorButton",
@@ -34,7 +34,7 @@ module.exports = [{
       type: "interaction",
       prototype: "button",
       code:`
-    $interactionReply[;{newEmbed:{title:Author Button}{description:First Page.}{color:Random}}]
+    $interactionReply[{newEmbed:{title:Author Button}{description:First Page.}{color:Random}}]
     
     $onlyIf[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];You're not the author of this command! {ephemeral}
     {interaction}]
@@ -42,7 +42,7 @@ module.exports = [{
     }]
 ```
 
-# Author select menu Example
+## Author select menu Example
 ```js
 module.exports = [{
     name: "author-menu",
@@ -60,7 +60,7 @@ $color[Random]
     type: "interaction", // clarifying that this command is an Interaction
     prototype: "selectMenu",
     code: `
-     $interactionReply[Hello! :);;;;everyone;false]
+     $interactionReply[Hello! :)]
 
 $onlyIf[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];You're not the author of this command! {ephemeral}
     {interaction}]
@@ -71,7 +71,7 @@ $onlyIf[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[aut
   }]
 ```
 
-# How do they work?
+## How do they work?
 We start by adding both of buttons and select menus using their dedicated functions.
 
 We then make sure that they have ` _$authorID` within the custom id like `Examplebutton_$authorID` for buttons example but then we start to create an author interaction using `$interactionData[customId]` which allows us to return the custom id name of the button/select menu we have just created below.

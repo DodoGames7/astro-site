@@ -262,7 +262,7 @@ Here's a list consisting of types you can use
 | NUMBER (10)  | Number type. Any double between -2^53 and 2^53 |
 | ATTACHMENT (11) | [Attachment](https://discord.com/developers/docs/resources/channel#attachment-object) type. Let's user upload an attachment to a option |
 # Need help?
-Be sure to ask for help in our [support](https://discord.com/invite/HMUfMXDQsV) or ask for help here directly!
+Be sure to ask for help in [aoi.js support](https://discord.com/invite/HMUfMXDQsV)
 
 # Other Guides
 * [Getting started with slash command choices](https://forum.aoijs.org/d/54-getting-started-with-slash-command-choices)

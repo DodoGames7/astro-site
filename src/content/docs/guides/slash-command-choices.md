@@ -157,9 +157,9 @@ type: "interaction",
 $if: "old",
 prototype: "slash",
 code: `$if[$slashOption[option]==value1]
-$interactionReply[;{newEmbed:{title:Hello!}{description:You have selected choice 1!}}]
+$interactionReply[{newEmbed:{title:Hello!}{description:You have selected choice 1!}}]
 $elseIf[$slashOption[option]==value2]
-$interactionReply[;{newEmbed:{title:Hello!}{description:You have selected choice 2}}]
+$interactionReply[{newEmbed:{title:Hello!}{description:You have selected choice 2}}]
 $endelseif
 $endif`
 }
