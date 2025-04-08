@@ -3,11 +3,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-               site: "https://DodoGames7.github.io",
+               site: "https://ddodogames.github.io",
                base: "/astro-site",
 	integrations: [
 		starlight({
-			title: 'dodoGames stuff',
+			title: "dodoGames' stuff",
 			defaultLocale: 'root',
 			locales: {
 				// English docs in `src/content/docs/en/`
@@ -22,8 +22,8 @@ export default defineConfig({
 			],
 			lastUpdated: true,
 			social: {
-				github: 'https://github.com/DodoGames7',
-				discord: 'https://discord.gg/pFwKjAaZvj',
+				github: 'https://github.com/ddodogames',
+				discord: 'https://discord.gg/7ZgYtGDNzs',
 				twitter: 'https://twitter.com/dodoGames14',
 				threads: 'https://www.threads.net/@dodogames14'
 			},
